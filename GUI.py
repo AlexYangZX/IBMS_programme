@@ -53,7 +53,7 @@ def restart_it():
 # 界面
 root_window = tkinter.Tk()
 root_window.title('GUI_Demo')
-root_window.minsize(1200, 800)   # 宽 ， 长
+root_window.minsize(1280, 800)   # 宽 ， 长
 output_text = tkinter.Text(root_window, width=80, height=60)
 label = tkinter.Label(root_window, text='着火点', )
 label2 = tkinter.Label(root_window, text='出口')
